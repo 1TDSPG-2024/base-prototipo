@@ -1,0 +1,21 @@
+html{
+    font-size: 65.2%;
+}
+
+body{
+    font-size: 1rem;
+}
+
+h1{
+    text-align: center;
+}
+
+#cabecalho{
+    background-color: rgb(0 , 0 , 255, 0.5) ;
+}
+
+.link{
+    display: inline;
+    margin: 5%;    
+    border: 2px solid red;
+}
