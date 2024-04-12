@@ -1,0 +1,20 @@
+/* Comentário de linha! */
+
+/* 
+    Comentário de bloco! 
+*/
+
+html{
+    font-size: 65.2%;
+}
+body{
+    font-size: 1rem;
+}
+#cabecalho{
+    background-color: #0000ff8F;
+}
+.link{
+    display: inline;
+    margin: 5%;
+    border: 2px solid red;
+}
