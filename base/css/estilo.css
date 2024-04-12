@@ -1,0 +1,24 @@
+/* Comentario de linha*/
+
+/*
+Comentario
+    de
+    bloco
+*/
+html{
+    font-size: 65.2%;
+}
+
+body{
+    font-size: 1rem;
+}
+
+
+#cabecalho{
+    background-color: #0000ff8f;
+}
+
+.link{
+    display: inline;
+    margin: 0 5%;
+}
