@@ -1,0 +1,19 @@
+/* PESQUISAR */
+html{
+    font-size: 65.2%;
+}
+
+body{
+    font-size: 1rem;
+}
+
+#cabecalho{
+    /*background-color: #0000FF; */
+    /*background-color: rgb(0, 0, 255, 0.5);*/
+     background-color: #0000ff8f;
+}
+
+.link{
+    display: inline;
+    margin: 0 5% 1%;
+}
