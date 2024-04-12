@@ -1,0 +1,23 @@
+/* PESQUISAR:
+html {
+    font-size: 65.2%;
+}
+
+body {
+    font-size: 1rem;
+}
+========================================================
+/*Comentário de linha*/
+/* 
+    Comentário de bloco
+*/
+
+#cabecalho {
+    background-color: grey;
+}
+
+.link {
+    display: inline;
+    border: 2px solid red;
+    margin: 0 5%;
+}
