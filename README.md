@@ -20,3 +20,14 @@
  ## Avançado
   - [ ] Criar um texto de aviso abaixo do campo  mensagem, informando que o campo  é   obrigatório.
   - [ ] Adicionar uma cor vermelha ao texto.
+## Equipes
+- [EQUIPE - CABECALHO]
+- Kauã - GustavoH - Julio - Marcelo-S - VitorS - Ana - VictorE
+- [EQUIPE - HELP]
+- GustavoL -  Jhonatta  - LeonardoO - Marcos - Bruno - André
+- [EQUIPE - ABOUT]
+- Samir - Luan - Mateus - Pedro - FelipeGL - Antonio
+- [EQUIPE - CADASTRO]
+- Victor-A - MarceloA - Julia - Jennifer - Leonardo-S - Caetano - GustavoG
+- [EQUIPE - RODAPÉ]
+- FelipeL - Gabriel - Diego - Emily - Gabriela - FelipeG
