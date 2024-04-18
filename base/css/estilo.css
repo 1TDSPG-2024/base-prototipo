@@ -1,0 +1,25 @@
+/*BASE*/
+html{
+    font-size: 65.2%;
+}
+
+body{
+    font-size: 1rem;
+}
+
+/*ComentÃ¡rio de linha*/
+
+/*
+    ComentÃ¡rio
+        de
+    Bloco!
+*/
+#cabecalho{
+    background-color: #0000ff8f;
+}
+
+.link{
+    display: inline;
+    border: 2px solid #ff0000;
+    margin: 0 5px;
+}
