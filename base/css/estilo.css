@@ -1,19 +1,102 @@
-html{
-    font-size: 65.2%;
-}
-body{
-    font-size:  1rem;
-}
-#cabecalho{
-    /* Exemplos para adicionar cor ao background*/
-    /* background-color: blue; */
-    /* background-color: #0000ff; */
-    background-color: rgb(0, 0, 255, 0.5); /* o 0.5 é a transparencia */
-    /* background-color: #0000ff8f; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.link{
-    display: inline;
-    border: 2px solid #ff0000;
-    margin: 0 5px;
+#cabecalho{
+    background-color: #130e0e;
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    /* Aninhamento de seletores */
+
+    h1{
+        color: #fff;
+    }
+
+    .link{
+        display: inline;
+        text-decoration: none;
+        display: inline-block;
+        padding: 20px;
+        border-radius: 5px;
+        background-color: #164756;
+        transition: all 0.4s ease-in-out;
+
+        &:hover{
+            background-color: #51727c;
+        }
+    }
 }
+
+#titulo{
+    text-align: center;
+    margin: 3% 0;
+}
+
+.pets{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+
+    figure{
+        flex: 1 1 200px;
+        margin: 10px;
+    }
+
+    img{
+        display: block;
+        max-width: 100%;
+    }
+}
+
+
+
+
+/* #cabecalho{
+  background-color: #130e0e;
+  height: 100px;
+  position: relative;
+  padding: 20px;
+
+  Aninhamento de seletores 
+  h1{
+    color: #fff;
+    float: left;
+    position: absolute;
+    top:30%;
+  }
+
+  nav{
+    float: right;
+    position: absolute;
+    top:25%;
+    right: 5%;
+  }
+
+  .link{
+    display: inline;
+    margin-left: 20px;
+    a{
+      color: #fff;
+      text-decoration: none;
+      display: inline-block;
+      padding: 20px;
+      border-radius: 5px;
+      background-color: #164756;
+      transition: all 0.4s ease-in-out;
+
+      &:hover{
+        background-color: #51727c;
+      }
+
+    }
+    
+  } 
+} */
