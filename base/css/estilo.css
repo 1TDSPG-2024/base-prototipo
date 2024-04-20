@@ -32,8 +32,15 @@ body{
 .help{
     display: flex;
     flex-direction: column;
-    background-color: #1e1e1e;
-    color: white
-    
+    background-color: #1e2836;
+    color: white;
+    width: 631px;
+    height: 248px;
+    top: 215px;
+    left: 34px;
+}
+
+.help h2{
+    font-size: 30px;
 }
 
