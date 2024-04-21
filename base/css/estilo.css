@@ -44,3 +44,13 @@ body{
     font-size: 30px;
 }
 
+.help_button{
+    width: 50px;
+    height: 20px;
+    background-color: #2c3746;
+    color: white;
+}
+
+.help_button:hover{
+    background-color: #556478;
+}
