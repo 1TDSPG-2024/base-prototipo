@@ -30,6 +30,7 @@ body{
 }
 
 .help{
+    padding: 20px;
     display: flex;
     flex-direction: column;
     background-color: #1e2836;
@@ -54,3 +55,10 @@ body{
 .help_button:hover{
     background-color: #556478;
 }
+
+.Texto{
+            font-size: 13px;  
+       
+
+        }
+        
