@@ -1,26 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INICIAL</title>
-    
     <link rel="stylesheet" href="./css/estilo.css"> 
-
+    <title>INICIAL</title> 
 </head>
-
 <body>
-    <!-- Inicio do Cabeçalho -->
-    <header id="cabecalho">
-        <h1>PROTÓTIPO</h1>
-        <nav>
-            <ul>
-                <li class="link"><a href="#">Help</a></li>
-                <li class="link"><a href="#">About</a></li>
-                <li class="link"><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Início do cadastro-->
+    <section id="cadastro">
+        <h1 class="titulo-cadastro">CADASTRO</h1>
+        <input type="text" name="name" id="name" placeholder="Nome Completo" required>
+        <p class="campo-obrigatorio">*Campo obrigatório</p>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <p class="campo-obrigatorio">*Campo obrigatório</p>
+        <button class="enviar" type="submit">Enviar</button>
+    </section>
  </body>
 </html>
