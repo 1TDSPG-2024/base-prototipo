@@ -47,7 +47,7 @@ body{
 
 .help_button{
     width: 50px;
-    height: 20px;
+   
     background-color: #2c3746;
     color: white;
 }
@@ -61,4 +61,10 @@ body{
        
 
         }
-        
+img{
+    width: 48px;
+    align-self: flex-end;
+}
+p{font-size: 15px;
+
+}
