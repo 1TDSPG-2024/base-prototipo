@@ -1,140 +1,82 @@
-/*Código CSS da aula atual*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-  #cabecalho{
-    background-image: url("../img/banner-1280×640.png");
-    background-size: cover;
-    background-position: center;
-    height: 200px;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-
-    h1{
-      color: #fff;
-      padding: 65px;
-      margin-left: 130px;
-      display: flex;
-      font-size: 60px;
-      
-    }
-  
-    nav{  
-      border: solid red;
-      
-      img{
-        background-color: red;
-      }
-      
-  }
-}
-
-
-
-
-
-
-
-
-
-/* 
 
 header {
-  background-color: red;
-  position: relative;
-  height: 200px;  
-}
-header img {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  background-image: url('../img/banner-1280×640.png');
+  background-size: cover;
+  background-position: center;
   height: 200px; 
-  z-index: -1; 
-} */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 
+  h1 {
+    margin: 0;
+    margin-left: 250px;
+    font-size: 50px;
+    color: rgb(255, 255, 255); 
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #cabecalho{
-  width: 100%;
-  height: 500px;
-  text-align: center;
-  background-color: red;
-
-  
+  .icones {
+    display: inline-block;
+    margin: 0 20%;
     
+  }
+
+  .icones img {
+    width: 120px; 
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+
+  .link:hover{
+    background-color: #4d8596;
+  }
 }
 
-.banner{
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: auto;
 
-  h1{
-    color: #fff;
-  }
 
-  /* .link{
-    display: inline;
-    margin-left: 20px;
-  }
-    a{
-      color: #fff;
-      text-decoration: none;
-      display: inline-block;
-      padding: 20px;
-      border-radius: 5px;
-      background-color: #164756;
-      transition: all 0.4s ease-in-out;
 
-      &:hover{
-        background-color: #51727c;
-      }
 
-    } */
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
