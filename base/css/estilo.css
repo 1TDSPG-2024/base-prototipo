@@ -1,4 +1,7 @@
 /*PESQUISAR*/
+style{
+    list-style-type: none;
+}
 html{
     font-size: 65.2%;
 }
@@ -7,13 +10,14 @@ body{
     font-size: 1rem;
 }
 
-
-/*Comentário de linha!*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /*
-    Comentário
-        de
-    bloco!
+    Comentário de bloco!
 */
 
 #cabecalho{
@@ -28,3 +32,57 @@ body{
     border:2px solid #ff0000;
     margin: 0 5%;
 }
+ #rodape{
+    background-color: #1E2836;
+    max-height: 30%;
+    padding: 20px 20px 0px 20px;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap; 
+    margin-bottom: 0px;
+
+}
+.navegacao{
+    justify-content: space-between;
+    display: flex;
+    padding: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.img-github{
+    width: 15%;
+}
+.img-google{
+    width: 15%
+    
+}
+.img-twitter{
+    width: 15%;
+    background-color: #FFFFFF; 
+    border-radius: 5%; 
+    padding: 2%; 
+}
+.copyright{
+    color: #FFFFFF;
+    width: 30%;
+    text-align: center;
+    margin-top: 2%;
+    font-size: medium   ;
+    
+}
+
+.github{ 
+    border: 2px solid #FFFFFF;
+    border-radius: 5px; 
+}
+
+.google{
+    border: 2px solid #FFFFFF;
+    border-radius: 5px; 
+}
+.twitter{
+    border: 2px solid #FFFFFF;
+    border-radius: 5px; 
+}
+
