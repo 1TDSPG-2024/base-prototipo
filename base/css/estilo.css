@@ -1,81 +1,26 @@
-/*PESQUISAR*/
-style{
-    list-style-type: none;
-}
-html{
-    font-size: 65.2%;
-}
-
-body{
-    font-size: 1rem;
-}
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*
-    Comentário de bloco!
-*/
-
-#cabecalho{
-    /* background-color: blue; */
-    /* background-color: #0000FF; */
-    /* background-color: rgb(0, 0, 255,0.5); */
-    background-color: #0000ff8f;
-}
-
-.link{
-    display: inline;
-    border:2px solid #ff0000;
-    margin: 0 5%;
-}
- #rodape{
+#rodape{
     background-color: #1E2836;
     max-height: 30%;
-    padding: 20px 20px 0px 20px;
+    padding: 20px 20px 5px 20px;
     justify-content: space-between;
     align-items:center;
     flex-wrap: wrap; 
     margin-bottom: 0px;
 
 }
+
 .navegacao{
     justify-content: space-between;
     display: flex;
     padding: 0px;
     margin-left: 40px;
     margin-right: 40px;
-    
-}
-
-.img-github{
-    width: 15%;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-.img-google{
-    width: 15%;
-    margin-left: 5px;
-    margin-right: 5px;
-    
-}
-.img-twitter{
-    width: 15%;
-    background-color: #FFFFFF; 
-    border-radius: 5%; 
-    padding: 2%; 
-    margin-left: 5px;
-    margin-right: 5px;
-}
-.copyright{
-    color: #FFFFFF;
-    text-align: center;
-    margin-top: 0.8%;
-    font-size: medium;
-    font-family: Tahoma, Verdana, sans-serif;
     
 }
 
@@ -90,10 +35,33 @@ body{
     border-radius: 5px; 
     padding-top: 3px;
 }
+
 .twitter{
     border: 2px solid #FFFFFF;
     border-radius: 5px; 
     padding-top: 3px;
+}
+
+.img-github{
+    width: 15%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.img-google{
+    width: 15%;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.img-twitter{
+    width: 15%;
+    background-color: #FFFFFF; 
+    border-radius: 5%; 
+    padding: 2%; 
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .a{
@@ -102,4 +70,13 @@ body{
     font-size: medium;
     font-family: Tahoma, Verdana, sans-serif;
     text-decoration:none;
+}
+
+.copyright{
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 0.8%;
+    font-size: medium;
+    font-family: Tahoma, Verdana, sans-serif;
+    
 }
