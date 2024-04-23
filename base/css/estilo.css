@@ -46,15 +46,20 @@ body{
     justify-content: space-between;
     display: flex;
     padding: 0px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
 }
 
 .img-github{
     width: 15%;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .img-google{
-    width: 15%
+    width: 15%;
+    margin-left: 5px;
+    margin-right: 5px;
     
 }
 .img-twitter{
@@ -62,27 +67,39 @@ body{
     background-color: #FFFFFF; 
     border-radius: 5%; 
     padding: 2%; 
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .copyright{
     color: #FFFFFF;
-    width: 30%;
     text-align: center;
-    margin-top: 2%;
-    font-size: medium   ;
+    margin-top: 0.5%;
+    font-size: medium;
+    font-family: Tahoma, Verdana, sans-serif;
     
 }
 
 .github{ 
     border: 2px solid #FFFFFF;
     border-radius: 5px; 
+    padding-top: 3px;
 }
 
 .google{
     border: 2px solid #FFFFFF;
     border-radius: 5px; 
+    padding-top: 3px;
 }
 .twitter{
     border: 2px solid #FFFFFF;
     border-radius: 5px; 
+    padding-top: 3px;
 }
 
+.a{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: medium;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-decoration:none;
+}
