@@ -14,29 +14,27 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+}
 
-  h1 {
-    margin: 0;
-    margin-left: 250px;
-    font-size: 50px;
-    color: rgb(255, 255, 255); 
-  }
+h1 {
+  margin: 0;
+  margin-left: 200px;
+  font-size: 60px;
+  color: #fff; 
+}
 
-  .icones {
-    display: inline-block;
-    margin: 0 20%;
-    
-  }
+.icones {
+  display: inline-block;
+  margin: 0 10%;
+}
 
-  .icones img {
-    width: 120px; 
-    margin-left: 10px;
-    border-radius: 5px;
-  }
+.icones img {
+  width: 150px; 
+  border-radius: 5px;
+}
 
-  .link:hover{
-    background-color: #4d8596;
-  }
+.link:hover{
+  background-color: #4d8596;
 }
 
 
