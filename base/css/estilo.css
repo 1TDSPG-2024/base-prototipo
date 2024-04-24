@@ -46,11 +46,6 @@ body{
     font-size: 35px;
 }
 
-.help img{
-    width: 40px;
-    align-self: flex-end;
-}
-
 .help p{
     font-size: 15px;
 }
@@ -64,6 +59,15 @@ body{
 .help_button:hover{
     background-color: #556478;
 }
+
+
+.help img{
+    width: 40px;
+    align-self: flex-end;
+}
+
+
+
 
 
 
