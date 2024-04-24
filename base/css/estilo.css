@@ -16,18 +16,7 @@ body{
     bloco!
 */
 
-#cabecalho{
-    /* background-color: blue; */
-    /* background-color: #0000FF; */
-    /* background-color: rgb(0, 0, 255,0.5); */
-    background-color: #0000ff8f;
-}
 
-.link{
-    display: inline;
-    border:2px solid #ff0000;
-    margin: 0 5%;
-}
 
 .help{
     padding: 20px;
@@ -39,7 +28,10 @@ body{
     height: 250px;
     top: 215px;
     left: 34px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom-style: solid;
+    border-bottom-color: #920417;
+    border-bottom-width: 7px;
 }
 
 .help h2{
