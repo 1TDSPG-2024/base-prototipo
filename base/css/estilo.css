@@ -1,32 +1,41 @@
-/*PESQUISAR*/
-html{
-    font-size: 65.2%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-body{
-    font-size: 1rem;
-}
+header {
+  background-image: url('../img/banner-1280×640.png');
+  background-size: cover;
+  background-position: center;
+  height: 200px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 
-
-/*Comentário de linha!*/
-
-/*
-    Comentário
-        de
-    bloco!
-*/
-
-#cabecalho{
-    /* background-color: blue; */
-    /* background-color: #0000FF; */
-    /* background-color: rgb(0, 0, 255,0.5); */
-    background-color: #0000ff8f;
-}
-
-.link{
-    display: inline;
-    border:2px solid #ff0000;
-    margin: 0 5%;
+  h1 {
+    margin: 0;
+    margin-left: 200px;
+    font-size: 60px;
+    color: #fff; 
+  }
+  
+  .icones {
+    display: inline-block;
+    margin: 0 10%;
+  }
+  
+  .icones img {
+    width: 150px; 
+    border-radius: 5px;
+  }
+  
+  .link:hover{
+    background-color: #4d8596;
+  }
 }
 
 /* about */
@@ -62,4 +71,131 @@ body{
         bottom: 10px;    
     }
 
+}
+
+#cadastro{
+    position: fixed;
+    top: 22%;
+    right: 0;
+    width: 45%;
+    height: 80%;
+    background-color: #1e2836d8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px 0;
+    border-left: 20px solid #fff;
+}
+.titulo-cadastro {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+input{
+    width: 600px;
+    height: 50px;
+    border: 2px solid #DBD4D4;
+    border-radius: 5px;
+}
+.enviar {
+    color: #fff;
+    background-color: #1E2836;
+    font-size: 35px;
+    width: 200px;
+    height: 70px;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    margin-top: 50px;
+}
+.enviar:hover{
+    background-color: #686868;
+    transform: scale(1.05);
+}
+.campo-obrigatorio {
+    color: #f00;
+    font-size: 15px;
+    margin: -14px 460px 0 0;
+    font-weight: bold;
+}
+
+#rodape{
+    background-color: #1E2836;
+    max-height: 30%;
+    padding: 20px 20px 5px 20px;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap; 
+    margin-bottom: 0px;
+
+}
+
+.navegacao{
+    justify-content: space-between;
+    display: flex;
+    padding: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+}
+
+.github{ 
+    border: 2px solid #FFFFFF;
+    border-radius: 5px; 
+    padding-top: 3px;
+}
+
+.google{
+    border: 2px solid #FFFFFF;
+    border-radius: 5px; 
+    padding-top: 3px;
+}
+
+.twitter{
+    border: 2px solid #FFFFFF;
+    border-radius: 5px; 
+    padding-top: 3px;
+}
+
+.img-github{
+    width: 15%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.img-google{
+    width: 15%;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.img-twitter{
+    width: 15%;
+    background-color: #FFFFFF; 
+    border-radius: 5%; 
+    padding: 2%; 
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.a{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: medium;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-decoration:none;
+}
+
+.copyright{
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 0.8%;
+    font-size: medium;
+    font-family: Tahoma, Verdana, sans-serif;
+    
 }

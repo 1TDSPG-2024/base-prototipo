@@ -8,22 +8,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/estilo.css">
-
-</head>
-
+    <link rel="stylesheet" href="./css/estilo.css"
+</head> 
 <body>
-    <!-- Inicio do Cabeçalho -->
-    <!-- <header id="cabecalho">
+    <header>
         <h1>PROTÓTIPO</h1>
-        <nav>
-            <ul>
-                <li class="link"><a href="#">Help</a></li>
-                <li class="link"><a href="#">About</a></li>
-                <li class="link"><a href="#">Contact</a></li>
-            </ul>
+            <nav class="icones">
+                <a href="#"><img src="./img/contato.png" alt="Ícone 1" class="link"></a>
+                <a href="#"><img src="./img/help.png" alt="Ícone 2" class="link"></a>
+                <a href="#"><img src="./img/sobre.png" alt="Ícone 3" class="link"></a>
         </nav>
-    </header> -->
+    </header>
 
     <!-- About -->
     <section id="about">
@@ -43,6 +38,25 @@
         </a>
         <hr>
     </section>
-</body>
-
+  
+    <!-- Início do cadastro-->
+    <section id="cadastro">
+        <h1 class="titulo-cadastro">CADASTRO</h1>
+        <input type="text" name="name" id="name" placeholder="Nome Completo" required>
+        <p class="campo-obrigatorio">*Campo obrigatório</p>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <p class="campo-obrigatorio">*Campo obrigatório</p>
+        <button class="enviar" type="submit">Enviar</button>
+    </section>
+  
+     <footer id="rodape">
+        <nav class="navegacao">
+            <div class="github"><img class="img-github" src="./img/github (1).png" alt="Github" title="Github" ><a class="a" href="https://github.com" target="_blank">Github</a></div>
+            <div class="google"><img class="img-google" src="./img/google.png" alt="Google" title="Google" ><a class="a" href="https://www.google.com" target="_blank">Google</a></div>
+            <div class="twitter"><img class="img-twitter" src="./img/twitter.png" alt="Twitter" title="Twitter" ><a class="a" href="https://www.twitter.com" target="_blank">Twitter</a></div>
+        </nav>
+        <div class="copyright">Copyright</div>
+    </footer>  
+ </body>
 </html>
+
