@@ -40,11 +40,10 @@ header {
 
 #cadastro{
     position: fixed;
-    top: 10%;
-    bottom: 10%;
+    top: 22%;
     right: 0;
-    width: 41%;
-    height: 75%;
+    width: 45%;
+    height: 80%;
     background-color: #1e2836d8;
     display: flex;
     flex-direction: column;
@@ -72,7 +71,7 @@ input{
     font-size: 35px;
     width: 200px;
     height: 70px;
-    border: 4px solid #fff;
+    border: 5px solid #fff;
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.4s ease;
