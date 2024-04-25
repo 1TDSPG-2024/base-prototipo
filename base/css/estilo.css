@@ -31,7 +31,7 @@ body{
 
 /* about */
 
-.about {
+#about {
     position: relative;
     width: 50%;
     display: flex;
