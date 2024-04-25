@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INICIAL</title>
-    
     <link rel="stylesheet" href="./css/estilo.css"> 
-
+    <title>INICIAL</title> 
 </head>
-
 <body>
     <header>
         <h1>PROTÓTIPO</h1>
@@ -19,5 +15,16 @@
                 <a href="#"><img src="./img/sobre.png" alt="Ícone 3" class="link"></a>
         </nav>
     </header>
-</body> 
+
+
+    <!-- Início do cadastro-->
+    <section id="cadastro">
+        <h1 class="titulo-cadastro">CADASTRO</h1>
+        <input type="text" name="name" id="name" placeholder="Nome Completo" required>
+        <p class="campo-obrigatorio">*Campo obrigatório</p>
+        <input type="email" name="email" id="email" placeholder="Email" required>
+        <p class="campo-obrigatorio">*Campo obrigatório</p>
+        <button class="enviar" type="submit">Enviar</button>
+    </section>
+ </body>
 </html>
