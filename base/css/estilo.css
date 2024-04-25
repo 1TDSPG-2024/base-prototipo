@@ -38,6 +38,41 @@ header {
   }
 }
 
+/* about */
+
+#about {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #1E2836;
+
+    .about__titulo {
+        font-size: 36px;
+        font-weight: bold;
+        margin: 10px 0px 0px 10px;
+        color: #fff;
+        font-family: "Inter", sans-serif;
+    }
+
+    .about__texto {
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        margin-right: 20px;
+        color: #fff;
+        font-family: "Inter", sans-serif;
+    }
+
+    .icone {
+        width: 24px;
+        position: absolute;
+        right: 20px;
+        bottom: 10px;    
+    }
+
+}
+
 #cadastro{
     position: fixed;
     top: 22%;
